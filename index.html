@@ -16,35 +16,48 @@
         </p>
         <input type="text" id="inputTask" />
         <select id="priority">
-          <option id="Red">High priority</option> 
+          <option id="Red">High priority</option>
           <option id="Yellow">Medium</option>
           <option id="Green">Low</option>
-      </select>
+        </select>
         <input type="button" onclick="addText()" value="Add To List" />
       </form>
 
       <div id="list">
         <h2>My Todos:</h2>
         <ul id="tasks"></ul>
-        <datalist id="doubleclick"></datalist>
       </div>
       <label for="start">Start date:</label>
-      <input type="date" id="start" name="trip-start"
-             value="2023-04-04"
-             min="2023-01-01" max="2023-12-31">
+      <input
+        type="date"
+        id="start"
+        name="trip-start"
+        value="2023-04-04"
+        min="2023-01-01"
+        max="2023-12-31"
+      />
 
-     <label for="start">Users name:</label>
-      <input type="name" id="start" name="trip-start"
-             value="jean wanjiru"
-             first ="jean" last = "wanjiru">
+      <label for="start">Users name:</label>
+      <input
+        type="name"
+        id="start"
+        name="trip-start"
+        value="jean wanjiru"
+        first="jean"
+        last="wanjiru"
+      />
 
+      <label for="start">duration:</label>
+      <input
+        type="date"
+        id="start"
+        name="trip-start"
+        value="12months"
+        min="2023-01-01"
+        max="2023-12-31"
+      />
 
-       <label for="start">duration:</label>
-      <input type="date" id="start" name="trip-start"
-          value="12months"
-         min ="2023-01-01" max = "2023-12-31">
-
-    <script src="./src/index.js"></script>
+      <script src="./src/index.js"></script>
     </div>
   </body>
 </html>
